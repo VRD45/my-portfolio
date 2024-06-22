@@ -65,3 +65,25 @@
     background-color: white;
     transition-duration: 0;
 }
+@media (max-width: 768px) {
+    .navbar{
+        /* width: 95.5vw; */
+        height: 70px;
+        padding: 0;
+    }
+    .name{
+        font-size: 10px;
+        margin: 0 10px;
+    }
+    .name a{
+        font-size: 25px;
+    }
+    .menuList{
+        margin: 0 5px;
+    }
+    .menu{
+        font-size: 16px;
+        margin: 0 10px;
+        padding: 4px;
+    }
+  }

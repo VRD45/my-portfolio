@@ -4,14 +4,14 @@ import '../Style/Contact.css'
 export const Contact = () => {
   const handles = [
     {
-      title:"LinkedinProfile",
+      title:"Viraj Dharmameher",
       icon:"fi fi-brands-linkedin",
       url:""
     },
     {
-      title:"Github",
+      title:"VRD45",
       icon:"fi fi-brands-github",
-      url:""
+      url:"https://github.com/VRD45"
     },
     {
       title:"Instagram",
@@ -19,9 +19,9 @@ export const Contact = () => {
       url:""
     },
     {
-      title:"Gmail",
+      title:"My Gmail",
       icon:"fi fi-brands-google",
-      url:""
+      url:"mailto:vrd200045@gmail.com"
     },
   ]
   return (
@@ -32,7 +32,7 @@ export const Contact = () => {
           {
             handles.length === 0 ? "No Handles" :
             handles.map((handle) => (
-              <a href={handle.url}><i class={handle.icon}></i>  {handle.title}</a>
+              <a target='_blank' href={handle.url}><i class={handle.icon}></i>  {handle.title}</a>
             ))
           }
         </div>

@@ -23,6 +23,7 @@
     color: #EDE8F5;
     margin: 5px;
     text-decoration: none;
+    text-align: center;
 }
 .hire{
     display: flex;
@@ -74,3 +75,55 @@ button:hover{
     color: #3D52A0;
     background-color: #EDE8F5;
 }
+
+@media (max-width: 768px) {
+    .contact{
+        padding: 0;
+    }
+    .contact h3{
+        font-size: 25px;
+    }
+    .handles{
+        margin: 20px 0;
+        width: 100%;
+        flex-direction: row;
+    }
+    .handles a{
+        margin: 20px 10px;
+        font-size: 18px;
+    }
+    .hire{
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin: 35px 20px 0 20px;
+        padding: 15px;
+    }
+    input,textarea{
+        width: 80%;
+        height: 40px;
+        margin: 8px 0;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    textarea{
+        height: 80px;
+        padding: 8px 10px;
+    }
+    button{
+        width: 60%;
+        border-radius: 25px;
+        height: 40px;
+        margin: 10px 0;
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+  }

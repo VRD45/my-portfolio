@@ -27,7 +27,20 @@
     cursor: pointer;
     transition: all 0.3s linear;
 }
-/* .skill h4:hover{
-    background-color: #3D52A0;
-    color: white;
-} */
+@media (max-width: 768px) {
+    .skills{
+        padding: 25px 20px ;
+    }
+    .category{
+        margin: 5px 20px;
+    }
+    .category h2{
+        font-size: 20px;
+    }
+    .skill h4{
+        font-size: 14px;
+        width: 35%;
+        padding: 10px;
+        margin: 5px 8px ;
+    }
+}

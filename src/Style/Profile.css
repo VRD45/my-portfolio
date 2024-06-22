@@ -14,3 +14,9 @@
 .initial{
     color: rgb(0, 174, 255);
 }
+
+@media (max-width: 768px) {
+    .myName{
+        font-size: 55px;
+    }
+}
