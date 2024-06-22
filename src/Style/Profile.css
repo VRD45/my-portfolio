@@ -1,0 +1,16 @@
+.profile{
+    display: flex;
+    /* width: 100px; */
+    min-height: 850px;
+    background:#ffffff url("../../public/pic1.jpg") no-repeat right top;
+    align-items: center;
+    padding: 0 20px;
+}
+.myName{
+    text-align: left;
+    font-size: 125px;
+    color: white;
+}
+.initial{
+    color: rgb(0, 174, 255);
+}

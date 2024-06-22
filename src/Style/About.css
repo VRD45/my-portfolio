@@ -1,0 +1,12 @@
+.about{
+    margin: 20px 50px;
+    border-radius: 25px;
+    background-color: #adbbda50;
+    padding: 50px 30px;
+    /* border: 2px solid red; */
+}
+.about h2{
+    text-align: left;
+    padding: 0 50px 0 60px;
+    /* color: #7091E6; */
+}
